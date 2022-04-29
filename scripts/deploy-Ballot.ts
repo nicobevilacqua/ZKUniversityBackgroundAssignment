@@ -13,6 +13,9 @@ const proposals: string[] = [
 async function main() {
   const [owner, voter1, voter2] = await ethers.getSigners();
   const ContractFactory = await ethers.getContractFactory('Ballot');
+
+  console.log('Deploying ballot contract...');
+
   const contract = await ContractFactory.connect(owner).deploy(proposals);
 
   async function giveRightToVote(voter: SignerWithAddress): Promise<ContractReceipt> {
@@ -31,16 +34,16 @@ async function main() {
 
   console.log('Ballot deployed to:', contract.address);
 
-  console.log('giving right votes');
+  console.log('Giving vote rights to voters...');
   await Promise.all([giveRightToVote(voter1), giveRightToVote(voter2)]);
 
-  console.log('voter1 voting');
+  console.log('Adding voter1 vote...');
   await vote(voter1, 0);
 
-  console.log('waiting until the ballot ends.');
+  console.log('Waiting until the ballot ends...');
   await new Promise((resolve) => setTimeout(resolve, 1000 * 60 * 5));
 
-  console.log('voter2 voting should fail');
+  console.log('Adding voter2 vote. It should fail...');
   try {
     await vote(voter1, 0);
   } catch (error) {
