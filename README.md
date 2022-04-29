@@ -30,9 +30,9 @@ If the objects have the same shape then you can give the objects to your friend.
 
 1. *Program a super simple “Hello World” smart contract: write a `**storeNumber**` function to store an unsigned integer and then a `**retrieveNumber**` function to retrieve it. Clearly comment your code. Once completed, deploy the smart contract on [remix](http://remix.ethereum.org/). Push the .sol file to Github or Gist and include a screenshot of the Remix UI once deployed in your final submission pdf.*
 
-- **[Contract code can be found here](./contracts/HelloWorld.sol)**
-- **[Test code can be found here](./test/HelloWorld.test.ts)**
-- **[Deployment script code can be found here](./scripts/deploy-HelloWorld.ts)**
+- **[Contract code can be found here](https://github.com/nicobevilacqua/ZKUniversityBackgroundAssignment/tree/master/contracts/HelloWorld.sol)**
+- **[Test code can be found here](https://github.com/nicobevilacqua/ZKUniversityBackgroundAssignment/tree/master/test/HelloWorld.test.ts)**
+- **[Deployment script code can be found here](https://github.com/nicobevilacqua/ZKUniversityBackgroundAssignment/tree/master/scripts/deploy-HelloWorld.ts)**
 
 ### Screenshots
 
@@ -43,13 +43,13 @@ If the objects have the same shape then you can give the objects to your friend.
 
 3. *Suppose we want to limit the voting period of each Ballot contract to **5 minutes**. To do so, implement the following: Add a state variable **`startTime`** to record the voting start time. Create a [modifier](https://www.youtube.com/watch?v=b6FBWsz7VaI) **`voteEnded`** that will check if the voting period is over. Use that modifier in the `**vote**` function to forbid voting and revert the transaction after the deadline.*
 
-- **[Contract code can be found here](./contracts/Ballot.sol)**
-- **[Test code can be found here](./test/Ballot.test.ts)**
+- **[Contract code can be found here](https://github.com/nicobevilacqua/ZKUniversityBackgroundAssignment/tree/master/contracts/Ballot.sol)**
+- **[Test code can be found here](https://github.com/nicobevilacqua/ZKUniversityBackgroundAssignment/tree/master/test/Ballot.test.ts)**
 
 4. *Deploy your amended script and test the newly implemented functionality in part 3. Submit (1) your amended version of the contract on Github or Gist and (2) screenshots showing the time of contract deployment as well as the transaction being reverted once past the voting period.*
 
-- **[Deploy script can be found here](./scripts/deploy-Ballot.ts)**
-- **[Test script can be found here](./test/Ballot.test.ts)**
+- **[Deploy script can be found here](https://github.com/nicobevilacqua/ZKUniversityBackgroundAssignment/tree/master/scripts/deploy-Ballot.ts)**
+- **[Test script can be found here](https://github.com/nicobevilacqua/ZKUniversityBackgroundAssignment/tree/master/test/Ballot.test.ts)**
 
 #### Screenshots:
 
