@@ -36,7 +36,7 @@ If the objects have the same shape then you can give the objects to your friend.
 
 ### Screenshots
 
-<img width="1360" alt="image" src="screenshots/HelloWorld-remix-deployment.png">
+<img width="1360" alt="image" src="https://github.com/nicobevilacqua/ZKUniversityBackgroundAssignment/blob/master/screenshots/HelloWorld-remix-deployment.png">
 
 
 2. *On the documentation page, [the “Ballot” contract](https://docs.soliditylang.org/en/v0.8.11/solidity-by-example.html#voting) demonstrates a lot of features on Solidity. Read through the script and try to understand what each line of code is doing.*
@@ -53,4 +53,4 @@ If the objects have the same shape then you can give the objects to your friend.
 
 #### Screenshots:
 
-<img width="1360" alt="image" src="screenshots/Ballot-votation-failed.png">
+<img width="1360" alt="image" src="https://github.com/nicobevilacqua/ZKUniversityBackgroundAssignment/blob/master/screenshots/Ballot-votation-failed.png">
